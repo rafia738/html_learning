@@ -21,6 +21,10 @@ body {
     margin: 0 auto;
 }
 
+
+
+
+
 .main-header {
     background-color: #f7f7f7;
     /* padding: 20PX; 
@@ -217,7 +221,7 @@ button {
     /* left: 50px; */
     bottom: 50px;
     right: 50px;
-    color: red;
+
 }
 
 h1::first-letter {
@@ -230,7 +234,7 @@ h3+p::first-line {
 }
 
 h2 {
-    /* background-color: rgb(233, 140, 106); */
+    /* background-color: rgb(233, 140, 106);  */
     position: relative;
 }
 
@@ -245,9 +249,11 @@ h2::before {
     position: absolute;
     top: -10px;
     right: -25px;
-    /*Resolving Conflict*/
+}
 
-    /* #Copyright {
+/*Resolving Conflict*/
+
+/* #Copyright {
     color: red;
     font-size: 18px;
 }
@@ -261,13 +267,27 @@ footer p{
     color:#2ea52a !important;
 } */
 
-    /* nav a:link, 
+/* nav a:link, 
 nav p{
     font-size: 18px;
 }*/
 
-    /* FLOATS */
+/* FLOATS */
 .author-img {
     float: left;
 }
 
+.author {
+    /* padding-left: 80px; */
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+h1{
+    float: left;
+}
+
+nav{
+    float: right;
+}
